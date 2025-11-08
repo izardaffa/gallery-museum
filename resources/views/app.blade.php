@@ -42,6 +42,40 @@
         @viteReactRefresh
         @vite(['resources/js/app.tsx', "resources/js/pages/{$page['component']}.tsx"])
         @inertiaHead
+
+
+        <!-- BOOTSTRAP STYLE SHEET -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
+        <!-- BOOTSTRAP SLECT BOX STYLE SHEET  -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-select.min.css">   
+        <!-- FONTAWESOME STYLE SHEET -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/fontawesome/css/font-awesome.min.css" />
+        <!-- OWL CAROUSEL STYLE SHEET -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/owl.carousel.min.css">
+        <!-- MAGNIFIC POPUP STYLE SHEET -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/magnific-popup.min.css">
+        <!-- LOADER STYLE SHEET -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/loader.min.css">
+        <!-- FLATICON STYLE SHEET -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/flaticon.min.css">
+
+        <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-slider.min.css">
+        <!-- MAIN STYLE SHEET -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+        <!-- Side Switcher Css-->
+        <link rel="stylesheet" type="text/css" href="/assets/css/switcher.css">
+
+        <!-- REVOLUTION SLIDER CSS -->
+        <link rel="stylesheet" type="text/css" href="/assets/plugins/revolution/revolution/css/settings.css">
+        <!-- REVOLUTION NAVIGATION STYLE -->
+        <link rel="stylesheet" type="text/css" href="/assets/plugins/revolution/revolution/css/navigation.css">
+        <link rel="stylesheet" type="text/css" href="/assets/plugins/revolution-addons/beforeafter/css/revolution.addon.beforeafter.css">
+
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+            rel="stylesheet">
     </head>
     <body class="font-sans antialiased">
         @inertia
