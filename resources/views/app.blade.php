@@ -43,7 +43,6 @@
         @vite(['resources/js/app.tsx', "resources/js/pages/{$page['component']}.tsx"])
         @inertiaHead
 
-
         <!-- BOOTSTRAP STYLE SHEET -->
         <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
         <!-- BOOTSTRAP SLECT BOX STYLE SHEET  -->
@@ -79,5 +78,52 @@
     </head>
     <body class="font-sans antialiased">
         @inertia
+
+        <!-- JAVASCRIPT  FILES ========================================= -->
+        <script src="/assets/js/jquery-1.12.4.min.js"></script><!-- JQUERY.MIN JS -->
+        <script src="/assets/js/popper.min.js"></script><!-- POPPER.MIN JS -->
+        <script src="/assets/js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+        <script src="/assets/js/magnific-popup.min.js"></script><!-- MAGNIFIC-POPUP JS -->
+        <script src="/assets/js/waypoints.min.js"></script><!-- WAYPOINTS JS -->
+        <script src="/assets/js/counterup.min.js"></script><!-- COUNTERUP JS -->
+        <script src="/assets/js/waypoints-sticky.min.js"></script><!-- sticky header JS -->
+        <script src="/assets/js/isotope.pkgd.min.js"></script><!-- MASONRY  -->
+        <script src="/assets/js/imagesloaded.pkgd.min.js"></script><!-- MASONRY  -->
+        <script src="/assets/js/owl.carousel.min.js"></script><!-- OWL  SLIDER  -->
+        <script src="/assets/js/jquery.owl-filter.js"></script>
+        <script src="/assets/js/stellar.min.js"></script><!-- PARALLAX BG IMAGE   -->
+        <script src="/assets/js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
+        <script src="/assets/js/jquery.bgscroll.js"></script><!-- BACKGROUND SCROLL -->
+        <script src="/assets/js/theia-sticky-sidebar.js"></script>
+        <script src="/assets/js/bootstrap-select.min.js"></script>
+        <script src="/assets/js/bootstrap-slider.min.js"></script>
+        <script src="/assets/js/jquery.bootstrap-touchspin.js"></script>
+        
+        <!-- REVEAL ADD-ON FILES -->
+
+        <script type='text/javascript'
+            src='/assets/plugins/revolution/revolution-addons/reveal/js/revolution.addon.revealer.min.js'></script>
+
+        <!-- TYPEWRITER ADD-ON FILES -->
+
+        <script type='text/javascript'
+            src='/assets/plugins/revolution/revolution-addons/typewriter/js/revolution.addon.typewriter.min.js'></script>  
+        
+        
+        <!-- REVOLUTION JS FILES -->
+
+        <script src="/assets/plugins/revolution/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script src="/assets/plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+        <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+        <script src="/assets/plugins/revolution/revolution/js/extensions/revolution-plugin.js"></script>
+
+        
+
+        <!-- REVOLUTION SLIDER SCRIPT FILES -->
+        <script src="/assets/js/rev-script-1.js"></script>
+
+        <script type='text/javascript'
+            src='/assets/plugins/revolution-addons/beforeafter/js/revolution.addon.beforeafter.min.js'></script>
     </body>
 </html>
