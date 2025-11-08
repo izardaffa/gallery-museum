@@ -1,4 +1,5 @@
 import Footer from '@/components/Footer';
+import Header from '@/components/Header';
 import Banner from '@/components/elements/Banner';
 import React from 'react';
 
@@ -8,6 +9,8 @@ const GalerySingle: React.FC = () => {
 
     return (
         <div className="page-content">
+            <Header />
+
             {/* Banner component */}
             <Banner
                 title="Galeri Artefak"

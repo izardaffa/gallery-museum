@@ -15,16 +15,16 @@ Route::get('/', function () {
 })->name('home');
 
 // Route to Galery
-Route::get('/galery', function () {
-    return Inertia::render('galery');
-})->name('galery');
+Route::get('/gallery', function () {
+    return Inertia::render('gallery');
+})->name('gallery');
 
 // Route to Galery Single
-Route::get('/galery/{id}', function ($id) {
-    return Inertia::render('galerySingle', [
+Route::get('/gallery/{id}', function ($id) {
+    return Inertia::render('gallerySingle', [
         'id' => $id,
     ]);
-})->name('galery-single');
+})->name('gallery-single');
 
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('dashboard', function () {

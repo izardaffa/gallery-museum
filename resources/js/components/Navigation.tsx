@@ -25,7 +25,16 @@ class Navigation extends Component {
         return (
             <>
                 <ul className="nav navbar-nav">
-                    <li className="active">
+                    <li>
+                        <Link href={'/'}>Home</Link>
+                    </li>
+                    <li>
+                        <Link href={'/gallery'}>Gallery</Link>
+                    </li>
+                    <li>
+                        <Link href={'/about-us'}>About us</Link>
+                    </li>
+                    {/* <li className="active">
                         <Link href={''}>Home</Link>
                         <ul className="sub-menu">
                             <li>
@@ -284,7 +293,7 @@ class Navigation extends Component {
                     </li>
                     <li>
                         <Link href={'/contact-us'}>Contact us</Link>
-                    </li>
+                    </li> */}
                 </ul>
             </>
         );
