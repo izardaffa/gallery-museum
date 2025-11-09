@@ -161,7 +161,7 @@ class Slider extends Component<{}, MyModalState> {
                                     data-hoffset="['50','50','70','0']"
                                     data-y="['middle','middle','middle','middle']"
                                     data-voffset="['10','10','10','10']"
-                                    data-fontsize="['64','64','60','40']"
+                                    data-fontsize="['64','64','60','20']"
                                     data-lineheight="['74','74','70','50']"
                                     data-width="['1200','900','700','100%']" // beri lebih banyak ruang di desktop/tablet, mobile = 100%
                                     data-height="none"
@@ -359,6 +359,7 @@ class Slider extends Component<{}, MyModalState> {
                                     data-hoffset="['50','50','70','0']"
                                     data-y="['middle','middle','middle','middle']"
                                     data-voffset="['10','10','10','10']"
+                                    data-fontsize="['64','64','60','20']"
                                     data-lineheight="['74','74','70','50']"
                                     data-width="['1200','900','700','100%']" // beri lebih banyak ruang di desktop/tablet, mobile = 100%
                                     data-height="none"
@@ -555,6 +556,7 @@ class Slider extends Component<{}, MyModalState> {
                                     data-hoffset="['50','50','70','0']"
                                     data-y="['middle','middle','middle','middle']"
                                     data-voffset="['10','10','10','10']"
+                                    data-fontsize="['64','64','60','20']"
                                     data-lineheight="['74','74','70','50']"
                                     data-width="['1200','900','700','100%']" // beri lebih banyak ruang di desktop/tablet, mobile = 100%
                                     data-height="none"

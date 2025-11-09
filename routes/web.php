@@ -10,6 +10,7 @@ use Laravel\Fortify\Features;
 //     ]);
 // })->name('home');
 
+// Route to Home
 Route::get('/', function () {
     return Inertia::render('home');
 })->name('home');
@@ -25,6 +26,11 @@ Route::get('/gallery/{id}', function ($id) {
         'id' => $id,
     ]);
 })->name('gallery-single');
+
+// Route to About
+Route::get('/about', function () {
+    return Inertia::render('about');
+})->name('about');
 
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('dashboard', function () {

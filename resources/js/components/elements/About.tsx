@@ -1,9 +1,11 @@
+import { Link } from '@inertiajs/react';
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
-var bgimg1 = require('./../../images/background/bg5.jpg');
+import bg5 from './../../assets/images/background/bg5.jpg';
 
-class About2 extends React.Component {
+var bgimg1 = bg5;
+
+class AboutSection extends React.Component {
     render() {
         return (
             <>
@@ -13,7 +15,7 @@ class About2 extends React.Component {
                             <div className="row">
                                 <div className="col-xl-5 col-lg-5 col-md-12">
                                     <div
-                                        className="home-2-about bg-cover bg-bottom-left bg-no-repeat"
+                                        className="home-2-about bg-bottom-center bg-cover bg-no-repeat"
                                         style={{
                                             backgroundImage:
                                                 'url(' + bgimg1 + ')',
@@ -35,12 +37,12 @@ class About2 extends React.Component {
                                             luxurious than natural stone.
                                         </p>
                                         <div className="text-left">
-                                            <NavLink
-                                                to={'/about-2'}
+                                            <Link
+                                                href={'/about-2'}
                                                 className="site-button-link"
                                             >
                                                 Read More
-                                            </NavLink>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -53,4 +55,4 @@ class About2 extends React.Component {
     }
 }
 
-export default About2;
+export default AboutSection;

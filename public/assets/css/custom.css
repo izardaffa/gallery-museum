@@ -1,3 +1,39 @@
 /*===================================== 
 YOU CAN WRIGHT CUSTOME CSS 
 ======================================*/
+
+.nav-transparent .main-bar {
+    background-color: rgba(200, 120, 0, 0.5);
+}
+
+.nav-transparent .is-fixed.color-fill .main-bar {
+    background: #c87800;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #c87800;
+}
+
+::selection {
+    background: #c87800;
+    color: #fff;
+}
+
+.sep-line-one:after,
+.sep-line-one:before {
+    background-color: #c87800;
+}
+
+.site-button-secondry {
+    background-color: #c87800;
+}
+
+.footer-dark .footer-bottom {
+    background-color: #c87800;
+    border: 1px solid #e8b870;
+}

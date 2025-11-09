@@ -32,7 +32,7 @@ class Navigation extends Component {
                         <Link href={'/gallery'}>Gallery</Link>
                     </li>
                     <li>
-                        <Link href={'/about-us'}>About us</Link>
+                        <Link href={'/about'}>About us</Link>
                     </li>
                     {/* <li className="active">
                         <Link href={''}>Home</Link>
