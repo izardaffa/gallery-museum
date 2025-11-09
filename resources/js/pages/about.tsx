@@ -1,3 +1,4 @@
+import Contact from '@/components/elements/Contact';
 import { Component } from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -36,7 +37,7 @@ class About extends Component {
                     />
                     <AboutSection />
                     <WhatWeDo />
-                    {/* <Achievements1 /> */}
+                    <Contact />
                 </div>
 
                 <Footer />
