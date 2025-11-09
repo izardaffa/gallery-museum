@@ -90,9 +90,7 @@ class Services extends Component {
                                         backgroundImage: 'url(' + bgimg1 + ')',
                                     }}
                                 >
-                                    <h3 className="sep-line-one">
-                                        Explore the Museum
-                                    </h3>
+                                    <h3 className="sep-line-one">Fasilitas</h3>
                                 </div>
                             </div>
                         </div>

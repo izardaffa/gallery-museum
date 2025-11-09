@@ -33,6 +33,14 @@ h6 {
     background-color: #c87800;
 }
 
+.site-button-secondry:active,
+.site-button-secondry:hover,
+.site-button-secondry:focus,
+.active > .site-button-secondry {
+    background-color: #ea9a22;
+    color: #fff;
+}
+
 .footer-dark .footer-bottom {
     background-color: #c87800;
     border: 1px solid #e8b870;
