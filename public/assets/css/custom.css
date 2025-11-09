@@ -41,6 +41,16 @@ h6 {
     color: #fff;
 }
 
+.site-button {
+    background-color: #c87800;
+    color: #fff;
+}
+
+.site-button:hover {
+    background-color: #ea9a22;
+    color: #fff;
+}
+
 .footer-dark .footer-bottom {
     background-color: #c87800;
     border: 1px solid #e8b870;
