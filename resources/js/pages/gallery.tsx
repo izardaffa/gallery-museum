@@ -179,7 +179,7 @@ class BlogMasonary extends Component<GalleryProps, GalleryState> {
                             </div>
 
                             {/* 🏺 Artefak List */}
-                            <div className="masonry-outer mfp-gallery news-masonry row align-items-start">
+                            <div className="masonry-outer mfp-gallery news-masonry row align-items-start justify-content-center">
                                 {filteredArtefacts.map((item, index) => (
                                     <div
                                         className="masonry-item col-lg-4 col-md-6 col-sm-12"
