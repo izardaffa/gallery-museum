@@ -51,6 +51,15 @@ h6 {
     color: #fff;
 }
 
+.footer-dark .footer-top {
+    background-color: #c87800;
+    border: 1px solid #e8b870;
+}
+
+.footer-dark .footer-top .widget-title {
+    color: #fff;
+}
+
 .footer-dark .footer-bottom {
     background-color: #c87800;
     border: 1px solid #e8b870;

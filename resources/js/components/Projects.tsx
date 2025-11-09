@@ -184,9 +184,12 @@ class Projects extends Component {
                             className="load-more-btn-outer text-center"
                             style={{ backgroundImage: 'url(' + bgimg2 + ')' }}
                         >
-                            <button className="site-button-secondry btn-half">
+                            <Link
+                                href={'/gallery'}
+                                className="site-button-secondry btn-half"
+                            >
                                 <span>Lihat Lebih Banyak</span>
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
