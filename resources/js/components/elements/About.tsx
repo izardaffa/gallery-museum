@@ -1,4 +1,3 @@
-import { Link } from '@inertiajs/react';
 import React from 'react';
 
 import bg5 from './../../assets/images/background/bg5.jpg';
@@ -36,14 +35,14 @@ class AboutSection extends React.Component {
                                             materials, none is more elegant and
                                             luxurious than natural stone.
                                         </p>
-                                        <div className="text-left">
+                                        {/* <div className="text-left">
                                             <Link
                                                 href={'/about-2'}
                                                 className="site-button-link"
                                             >
                                                 Read More
                                             </Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
