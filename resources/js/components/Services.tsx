@@ -1,4 +1,4 @@
-import { Link } from 'lucide-react';
+import { Link } from '@inertiajs/react';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { Component } from 'react';
@@ -11,25 +11,25 @@ import service4 from './../assets/images/services/service-projects/4.jpg';
 const services = [
     {
         count: '01',
-        title: 'Plans and Projects',
+        title: 'Ruang Pengalaman',
         flaticon: 'flaticon-sketch',
         image: service1,
     },
     {
         count: '02',
-        title: 'Interior',
+        title: 'Pesona Gerabah Kami',
         flaticon: 'flaticon-stairs',
         image: service2,
     },
     {
         count: '03',
-        title: 'Exterior',
+        title: 'Ruang dan Cerita',
         flaticon: 'flaticon-window',
         image: service3,
     },
     {
         count: '04',
-        title: 'Architecture',
+        title: 'Eksplorasi Budaya',
         flaticon: 'flaticon-skyline',
         image: service4,
     },
@@ -90,7 +90,9 @@ class Services extends Component {
                                         backgroundImage: 'url(' + bgimg1 + ')',
                                     }}
                                 >
-                                    <h3 className="sep-line-one">Services</h3>
+                                    <h3 className="sep-line-one">
+                                        Explore the Museum
+                                    </h3>
                                 </div>
                             </div>
                         </div>

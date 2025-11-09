@@ -1,4 +1,3 @@
-import { Link } from '@inertiajs/react';
 import { Component } from 'react';
 
 import slide1 from './../assets/images/main-slider/slider2/slide1.jpg';
@@ -67,7 +66,7 @@ class Slider extends Component<{}, MyModalState> {
                                 data-easein="default"
                                 data-easeout="default"
                                 data-masterspeed={300}
-                                data-thumb={slide3}
+                                data-thumb={slide1}
                                 data-rotate={0}
                                 data-saveperformance="off"
                                 data-title
@@ -85,7 +84,7 @@ class Slider extends Component<{}, MyModalState> {
                             >
                                 {/* MAIN IMAGE */}
                                 <img
-                                    src={slide3}
+                                    src={slide1}
                                     alt=""
                                     data-bgcolor="#f8f8f8"
                                     style={{}}
@@ -152,7 +151,7 @@ class Slider extends Component<{}, MyModalState> {
                                         fontFamily: '"Poppins", sans-serif',
                                     }}
                                 >
-                                    Modern
+                                    Megah
                                 </div>
                                 {/* LAYER 4  Bold Title*/}
                                 <div
@@ -164,9 +163,9 @@ class Slider extends Component<{}, MyModalState> {
                                     data-voffset="['10','10','10','10']"
                                     data-fontsize="['64','64','60','40']"
                                     data-lineheight="['74','74','70','50']"
-                                    data-width="['700','700','700','90%']"
+                                    data-width="['1200','900','700','100%']" // beri lebih banyak ruang di desktop/tablet, mobile = 100%
                                     data-height="none"
-                                    data-whitespace="normal"
+                                    data-whitespace="nowrap" // jangan wrap, biarkan satu baris
                                     data-type="text"
                                     data-responsive_offset="on"
                                     data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;",
@@ -186,7 +185,7 @@ class Slider extends Component<{}, MyModalState> {
                                         fontFamily: '"Poppins", sans-serif',
                                     }}
                                 >
-                                    Architecture
+                                    Warisan Tanah yang Bernyawa
                                 </div>
                                 {/* LAYER 5  Paragraph*/}
                                 <div
@@ -218,12 +217,14 @@ class Slider extends Component<{}, MyModalState> {
                                         fontFamily: '"Poppins", sans-serif',
                                     }}
                                 >
-                                    Analysis and planning services that help
-                                    both the client and architects to work out
-                                    the forthcoming project...
+                                    Dari tanah sederhana, lahirlah karya yang
+                                    abadi. Jelajahi museum gerabah yang
+                                    memadukan keindahan tradisi dengan sentuhan
+                                    modern, tempat sejarah dan seni bertemu
+                                    dalam harmoni.
                                 </div>
                                 {/* LAYER 6  Read More*/}
-                                <div
+                                {/* <div
                                     className="tp-caption rev-btn tp-resizeme"
                                     id="slide-70-layer-6"
                                     data-x="['left','left','left','center']"
@@ -251,7 +252,7 @@ class Slider extends Component<{}, MyModalState> {
                                     >
                                         <span> Read More</span>
                                     </Link>
-                                </div>
+                                </div> */}
                             </li>
                             {/* SLIDE 2 */}
                             <li
@@ -263,7 +264,7 @@ class Slider extends Component<{}, MyModalState> {
                                 data-easein="default"
                                 data-easeout="default"
                                 data-masterspeed={300}
-                                data-thumb={slide1}
+                                data-thumb={slide2}
                                 data-rotate={0}
                                 data-saveperformance="off"
                                 data-title
@@ -281,7 +282,7 @@ class Slider extends Component<{}, MyModalState> {
                             >
                                 {/* MAIN IMAGE */}
                                 <img
-                                    src={slide1}
+                                    src={slide2}
                                     alt=""
                                     data-bgcolor="#f8f8f8"
                                     style={{}}
@@ -348,7 +349,7 @@ class Slider extends Component<{}, MyModalState> {
                                         fontFamily: '"Poppins", sans-serif',
                                     }}
                                 >
-                                    Modish
+                                    Hangat
                                 </div>
                                 {/* LAYER 4  Bold Title*/}
                                 <div
@@ -358,11 +359,10 @@ class Slider extends Component<{}, MyModalState> {
                                     data-hoffset="['50','50','70','0']"
                                     data-y="['middle','middle','middle','middle']"
                                     data-voffset="['10','10','10','10']"
-                                    data-fontsize="['64','64','60','40']"
                                     data-lineheight="['74','74','70','50']"
-                                    data-width="['700','700','700','90%']"
+                                    data-width="['1200','900','700','100%']" // beri lebih banyak ruang di desktop/tablet, mobile = 100%
                                     data-height="none"
-                                    data-whitespace="normal"
+                                    data-whitespace="nowrap" // jangan wrap, biarkan satu baris
                                     data-type="text"
                                     data-responsive_offset="on"
                                     data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;",
@@ -382,7 +382,7 @@ class Slider extends Component<{}, MyModalState> {
                                         fontFamily: '"Poppins", sans-serif',
                                     }}
                                 >
-                                    Deluxe Room
+                                    Di Antara Tangan dan Tanah
                                 </div>
                                 {/* LAYER 5  Paragraph*/}
                                 <div
@@ -414,12 +414,13 @@ class Slider extends Component<{}, MyModalState> {
                                         fontFamily: '"Poppins", sans-serif',
                                     }}
                                 >
-                                    We combine Interior and Exterior Design
-                                    services and often provide them as a single
-                                    solution. It helps us...
+                                    Saksikan perjalanan para pengrajin yang
+                                    membentuk tanah menjadi cerita. Di bangunan
+                                    ini, setiap debu tanah punya kisah yang
+                                    menunggu untuk diungkap.
                                 </div>
                                 {/* LAYER 6  Read More*/}
-                                <div
+                                {/* <div
                                     className="tp-caption rev-btn tp-resizeme"
                                     id="slide-71-layer-6"
                                     data-x="['left','left','left','center']"
@@ -447,7 +448,7 @@ class Slider extends Component<{}, MyModalState> {
                                     >
                                         <span> Read More</span>
                                     </Link>
-                                </div>
+                                </div> */}
                             </li>
                             {/* SLIDE 3 */}
                             <li
@@ -459,7 +460,7 @@ class Slider extends Component<{}, MyModalState> {
                                 data-easein="default"
                                 data-easeout="default"
                                 data-masterspeed={300}
-                                data-thumb={slide2}
+                                data-thumb={slide3}
                                 data-rotate={0}
                                 data-saveperformance="off"
                                 data-title
@@ -477,7 +478,7 @@ class Slider extends Component<{}, MyModalState> {
                             >
                                 {/* MAIN IMAGE */}
                                 <img
-                                    src={slide2}
+                                    src={slide3}
                                     alt=""
                                     data-bgcolor="#f8f8f8"
                                     style={{}}
@@ -544,7 +545,7 @@ class Slider extends Component<{}, MyModalState> {
                                         fontFamily: '"Poppins", sans-serif',
                                     }}
                                 >
-                                    Modish
+                                    Mendalam
                                 </div>
                                 {/* LAYER 4  Bold Title*/}
                                 <div
@@ -554,11 +555,10 @@ class Slider extends Component<{}, MyModalState> {
                                     data-hoffset="['50','50','70','0']"
                                     data-y="['middle','middle','middle','middle']"
                                     data-voffset="['10','10','10','10']"
-                                    data-fontsize="['64','64','60','40']"
                                     data-lineheight="['74','74','70','50']"
-                                    data-width="['700','700','700','700']"
+                                    data-width="['1200','900','700','100%']" // beri lebih banyak ruang di desktop/tablet, mobile = 100%
                                     data-height="none"
-                                    data-whitespace="normal"
+                                    data-whitespace="nowrap" // jangan wrap, biarkan satu baris
                                     data-type="text"
                                     data-responsive_offset="on"
                                     data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;",
@@ -578,7 +578,7 @@ class Slider extends Component<{}, MyModalState> {
                                         fontFamily: '"Poppins", sans-serif',
                                     }}
                                 >
-                                    Deluxe Kitchen
+                                    Ruang Waktu dalam Gerabah
                                 </div>
                                 {/* LAYER 5  Paragraph*/}
                                 <div
@@ -610,12 +610,13 @@ class Slider extends Component<{}, MyModalState> {
                                         fontFamily: '"Poppins", sans-serif',
                                     }}
                                 >
-                                    We offer comprehensive Architectural
-                                    Engineering Services including Interior
-                                    design, Master planning, 3D modeling...
+                                    Melangkah ke dalam galeri yang menyimpan
+                                    ratusan tahun budaya dan ketekunan manusia.
+                                    Setiap lekuk gerabah menyimpan makna, setiap
+                                    retakan punya suara.
                                 </div>
                                 {/* LAYER 6  Read More*/}
-                                <div
+                                {/* <div
                                     className="tp-caption rev-btn tp-resizeme"
                                     id="slide-72-layer-6"
                                     data-x="['left','left','left','center']"
@@ -643,7 +644,7 @@ class Slider extends Component<{}, MyModalState> {
                                     >
                                         <span> Read More</span>
                                     </Link>
-                                </div>
+                                </div> */}
                             </li>
                         </ul>
                         <div
