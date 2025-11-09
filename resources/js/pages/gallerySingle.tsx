@@ -1,6 +1,8 @@
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import Banner from '@/components/elements/Banner';
+import { gallery } from '@/routes';
+import { Link } from '@inertiajs/react';
 import React from 'react';
 
 const GallerySingle: React.FC = () => {
@@ -19,9 +21,9 @@ const GallerySingle: React.FC = () => {
 
             {/* Back button to gallery listing */}
             <div className="container mt-4">
-                <a href="/gallery" className="site-button">
+                <Link href={gallery()} className="site-button">
                     ← Kembali ke Galeri
-                </a>
+                </Link>
             </div>
 
             {/* Image + description only */}

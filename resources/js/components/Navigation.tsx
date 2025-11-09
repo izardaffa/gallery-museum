@@ -1,3 +1,4 @@
+import { about, gallery, home } from '@/routes';
 import { Link } from '@inertiajs/react';
 import { Component } from 'react';
 
@@ -26,13 +27,13 @@ class Navigation extends Component {
             <>
                 <ul className="nav navbar-nav">
                     <li>
-                        <Link href={'/'}>Home</Link>
+                        <Link href={home()}>Home</Link>
                     </li>
                     <li>
-                        <Link href={'/gallery'}>Gallery</Link>
+                        <Link href={gallery()}>Gallery</Link>
                     </li>
                     <li>
-                        <Link href={'/about'}>About us</Link>
+                        <Link href={about()}>About us</Link>
                     </li>
                     {/* <li className="active">
                         <Link href={''}>Home</Link>

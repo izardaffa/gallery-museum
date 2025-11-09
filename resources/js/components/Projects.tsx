@@ -1,6 +1,7 @@
 import { Link } from '@inertiajs/react';
 import { Component } from 'react';
 
+import { gallery, gallerySingle } from '@/routes';
 import crossLine from './../assets/images/background/cross-line.png';
 import crossLine2 from './../assets/images/background/cross-line2.png';
 import pic1 from './../assets/images/projects/portrait/pic1.jpg';
@@ -161,7 +162,7 @@ class Projects extends Component {
                                         </div>
                                         <div className="sx-info p-t20 text-white">
                                             <h4 className="sx-tilte">
-                                                <Link href={'/project-detail1'}>
+                                                <Link href={gallerySingle(1)}>
                                                     {item.title}
                                                 </Link>
                                             </h4>
@@ -185,7 +186,7 @@ class Projects extends Component {
                             style={{ backgroundImage: 'url(' + bgimg2 + ')' }}
                         >
                             <Link
-                                href={'/gallery'}
+                                href={gallery()}
                                 className="site-button-secondry btn-half"
                             >
                                 <span>Lihat Lebih Banyak</span>

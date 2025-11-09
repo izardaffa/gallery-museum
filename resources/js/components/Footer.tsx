@@ -1,6 +1,7 @@
 import { Link } from '@inertiajs/react';
 import React from 'react';
 
+import { about, gallery, home } from '@/routes';
 import logoLight from './../assets/images/logo-light.png';
 
 class Footer extends React.Component {
@@ -18,7 +19,7 @@ class Footer extends React.Component {
                                     <div className="widget widget_about">
                                         {/*<h4 class="widget-title">About Company</h4>*/}
                                         <div className="logo-footer clearfix p-b15">
-                                            <Link href={'./'}>
+                                            <Link href={home()}>
                                                 <img
                                                     src={logoLight}
                                                     alt="Inteshape"
@@ -63,15 +64,15 @@ class Footer extends React.Component {
                                         </h5>
                                         <ul>
                                             <li>
-                                                <Link href={'/'}>Home</Link>
+                                                <Link href={home()}>Home</Link>
                                             </li>
                                             <li>
-                                                <Link href={'/gallery'}>
+                                                <Link href={gallery()}>
                                                     Gallery
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href={'/about'}>
+                                                <Link href={about()}>
                                                     About
                                                 </Link>
                                             </li>
@@ -108,14 +109,14 @@ class Footer extends React.Component {
                                         <span className="copyrights-text">
                                             © {new Date().getFullYear()} Museum
                                             Gerabah Kebumen. Designed by{' '}
-                                            <a
+                                            <Link
                                                 href="https://7xtheme.com"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 className="text-decoration-none text-light fw-semibold"
                                             >
                                                 Nusa Team
-                                            </a>
+                                            </Link>
                                             .
                                         </span>
                                     </div>

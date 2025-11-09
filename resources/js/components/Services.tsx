@@ -1,4 +1,3 @@
-import { Link } from '@inertiajs/react';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { Component } from 'react';
@@ -127,15 +126,10 @@ class Services extends Component {
                                                     <div className="icon-content">
                                                         <h4 className="sx-tilte">
                                                             {' '}
-                                                            <Link
-                                                                href={
-                                                                    '/services-detail'
-                                                                }
-                                                                className="sx-text-white"
-                                                            >
+                                                            <span className="sx-text-white">
                                                                 {' '}
                                                                 {item.title}
-                                                            </Link>
+                                                            </span>
                                                         </h4>
                                                     </div>
                                                 </div>

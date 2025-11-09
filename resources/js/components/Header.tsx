@@ -1,3 +1,4 @@
+import { home } from '@/routes';
 import { Link } from '@inertiajs/react';
 import { Component } from 'react';
 import logoLight from './../assets/images/logo-light.png';
@@ -105,7 +106,7 @@ class Header extends Component<{}, HeaderState> {
                             <div className="clearfix container">
                                 <div className="logo-header">
                                     <div className="logo-header-inner logo-header-one">
-                                        <Link href={'./'}>
+                                        <Link href={home()}>
                                             <img
                                                 src={this.state.logo}
                                                 alt="Inteshape"
