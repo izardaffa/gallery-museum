@@ -1,4 +1,6 @@
-const Banner = ({ title, pagename, description, bgimage }: any) => {
+import banner5 from './../../assets/images/banner/5.jpg';
+
+const Banner = ({ title, pagename, description, bgimage = banner5 }: any) => {
     return (
         <>
             <div

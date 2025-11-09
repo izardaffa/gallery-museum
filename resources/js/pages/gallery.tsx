@@ -68,8 +68,6 @@ const kabupatenOptions = kabupatenList.map((k) => ({
     label: k,
 }));
 
-const bnrimg = '/images/banner/9.jpg';
-
 interface GalleryState {
     search: string;
     kabupaten: string;
@@ -124,7 +122,6 @@ class BlogMasonary extends Component<GalleryProps, GalleryState> {
                         title="Galeri Artefak Museum"
                         pagename="Galeri Museum"
                         description="Jelajahi koleksi artefak bersejarah dari berbagai kabupaten di Indonesia."
-                        bgimage={bnrimg}
                     />
 
                     <div className="section-full p-tb80 inner-page-padding">

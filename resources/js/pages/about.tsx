@@ -5,10 +5,6 @@ import AboutSection from '../components/elements/About';
 import Banner from '../components/elements/Banner';
 import WhatWeDo from '../components/elements/WhatWeDo';
 
-import banner5 from './../assets/images/banner/5.jpg';
-
-var bnrimg = banner5;
-
 class About extends Component {
     componentDidMount() {
         const loadScript = (src: string): Promise<void> => {
@@ -37,7 +33,6 @@ class About extends Component {
                         title="Museum Gerabah Kebumen"
                         pagename="About us"
                         description="The essence of interior design will always be about people and how they live. It is about the realities of what makes for an attractive, civilized."
-                        bgimage={bnrimg}
                     />
                     <AboutSection />
                     <WhatWeDo />
