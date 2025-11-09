@@ -24,8 +24,7 @@ class AboutSection extends React.Component {
                                 <div className="col-xl-7 col-lg-7 col-md-12">
                                     <div className="about-home-2">
                                         <h3 className="m-t0 sx-tilte">
-                                            Our floors are designed to last a
-                                            lifetime
+                                            Tentang Kami
                                         </h3>
                                         <p>
                                             Since 1999, we have been providing

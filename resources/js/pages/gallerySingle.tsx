@@ -3,8 +3,7 @@ import Header from '@/components/Header';
 import Banner from '@/components/elements/Banner';
 import React from 'react';
 
-const GalerySingle: React.FC = () => {
-    const banner = '/images/banner/10.jpg';
+const GallerySingle: React.FC = () => {
     const hero = '/images/blog/default/thum1.jpg';
 
     return (
@@ -16,12 +15,11 @@ const GalerySingle: React.FC = () => {
                 title="Galeri Artefak"
                 pagename="Galeri"
                 description="Detail artefak dan informasi singkat"
-                bgimage={banner}
             />
 
             {/* Back button to gallery listing */}
             <div className="container mt-4">
-                <a href="/galery" className="site-button">
+                <a href="/gallery" className="site-button">
                     ← Kembali ke Galeri
                 </a>
             </div>
@@ -69,4 +67,4 @@ const GalerySingle: React.FC = () => {
     );
 };
 
-export default GalerySingle;
+export default GallerySingle;

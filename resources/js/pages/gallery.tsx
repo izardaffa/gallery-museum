@@ -16,7 +16,7 @@ const artefacts = [
         id: 1,
     },
     {
-        image: '/images/blog/portrait/pic1.jpg',
+        image: '/images/blog/portrait/pic2.jpg',
         title: 'Topeng Panji dari Kayu Jati',
         author: 'Museum Mpu Tantular',
         date: '25',
@@ -25,7 +25,7 @@ const artefacts = [
         id: 1,
     },
     {
-        image: '/images/blog/portrait/pic1.jpg',
+        image: '/images/blog/portrait/pic3.jpg',
         title: 'Arca Dwarapala Penjaga Candi',
         author: 'Museum Trowulan',
         date: '26',
@@ -34,7 +34,7 @@ const artefacts = [
         id: 1,
     },
     {
-        image: '/images/blog/portrait/pic1.jpg',
+        image: '/images/blog/portrait/pic4.jpg',
         title: 'Perahu Kuno dari Kayu Ulin',
         author: 'Museum Kalimantan Timur',
         date: '16',
@@ -43,7 +43,7 @@ const artefacts = [
         id: 1,
     },
     {
-        image: '/images/blog/portrait/pic1.jpg',
+        image: '/images/blog/portrait/pic5.jpg',
         title: 'Gerabah Neolitikum',
         author: 'Museum Bengkulu',
         date: '18',
@@ -67,8 +67,6 @@ const kabupatenOptions = kabupatenList.map((k) => ({
     value: k,
     label: k,
 }));
-
-const bnrimg = '/images/banner/9.jpg';
 
 interface GalleryState {
     search: string;
@@ -124,7 +122,6 @@ class BlogMasonary extends Component<GalleryProps, GalleryState> {
                         title="Galeri Artefak Museum"
                         pagename="Galeri Museum"
                         description="Jelajahi koleksi artefak bersejarah dari berbagai kabupaten di Indonesia."
-                        bgimage={bnrimg}
                     />
 
                     <div className="section-full p-tb80 inner-page-padding">

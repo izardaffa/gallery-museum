@@ -4,9 +4,9 @@ import bg2 from './../../assets/images/background/bg-2.jpg';
 import bg5 from './../../assets/images/background/bg-5.png';
 import crossLine2 from './../../assets/images/background/cross-line2.png';
 
-import pic1 from './../../assets/images/pic1.jpg';
-import pic2 from './../../assets/images/pic2.jpg';
-import pic3 from './../../assets/images/pic3.jpg';
+import pic1 from './../../assets/images/our-team/pic1.jpg';
+import pic2 from './../../assets/images/our-team/pic2.jpg';
+import pic3 from './../../assets/images/our-team/pic3.jpg';
 
 var bgimg1 = bg5;
 var bgimg2 = bg2;
@@ -35,7 +35,7 @@ class WhatWeDo extends React.Component {
                                         backgroundImage: 'url(' + bgimg3 + ')',
                                     }}
                                 >
-                                    <h3 className="sep-line-one">What We do</h3>
+                                    <h3 className="sep-line-one">Tim Kami</h3>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +47,7 @@ class WhatWeDo extends React.Component {
                                         <img src={pic1} alt="" />
                                         <div className="figcaption p-a20 bg-white text-center">
                                             <h4 className="m-a0">
-                                                Interior Design
+                                                Slamet Riyanto
                                             </h4>
                                         </div>
                                         <div className="figcaption-number sx-text-primary animate-in-to-top-content text-center">
@@ -60,7 +60,7 @@ class WhatWeDo extends React.Component {
                                         <img src={pic2} alt="" />
                                         <div className="figcaption p-a20 bg-white text-center">
                                             <h4 className="m-a0">
-                                                Architectur
+                                                Dewi Lestari
                                             </h4>
                                         </div>
                                         <div className="figcaption-number sx-text-primary animate-in-to-top-content text-center">
@@ -72,7 +72,9 @@ class WhatWeDo extends React.Component {
                                     <div className="number-block-one animate-in-to-top">
                                         <img src={pic3} alt="" />
                                         <div className="figcaption p-a20 bg-white text-center">
-                                            <h4 className="m-a0">Floor Plan</h4>
+                                            <h4 className="m-a0">
+                                                Agus Rahmawati
+                                            </h4>
                                         </div>
                                         <div className="figcaption-number sx-text-primary animate-in-to-top-content text-center">
                                             <span>03</span>

@@ -9,9 +9,9 @@ import pic3 from './../assets/images/projects/portrait/pic3.jpg';
 import pic4 from './../assets/images/projects/portrait/pic4.jpg';
 import pic5 from './../assets/images/projects/portrait/pic5.jpg';
 import pic6 from './../assets/images/projects/portrait/pic6.jpg';
-import pic7 from './../assets/images/projects/portrait/pic7.jpg';
-import pic8 from './../assets/images/projects/portrait/pic8.jpg';
-import pic9 from './../assets/images/projects/portrait/pic9.jpg';
+// import pic7 from './../assets/images/projects/portrait/pic7.jpg';
+// import pic8 from './../assets/images/projects/portrait/pic8.jpg';
+// import pic9 from './../assets/images/projects/portrait/pic9.jpg';
 
 const filters = [
     { label: 'Architecture', filter: '.cat-1' },
@@ -58,24 +58,24 @@ const projects = [
         address: 'Muscat, Sultanate of Oman',
         filter: 'cat-4',
     },
-    {
-        image: pic7,
-        title: 'Qatar Pavilion',
-        address: 'Muscat, Sultanate of Oman',
-        filter: 'cat-3',
-    },
-    {
-        image: pic8,
-        title: 'Museum',
-        address: 'Muscat, Sultanate of Oman',
-        filter: 'cat-2',
-    },
-    {
-        image: pic9,
-        title: 'Modern house',
-        address: 'Muscat, Sultanate of Oman',
-        filter: 'cat-1',
-    },
+    // {
+    //     image: pic7,
+    //     title: 'Qatar Pavilion',
+    //     address: 'Muscat, Sultanate of Oman',
+    //     filter: 'cat-3',
+    // },
+    // {
+    //     image: pic8,
+    //     title: 'Museum',
+    //     address: 'Muscat, Sultanate of Oman',
+    //     filter: 'cat-2',
+    // },
+    // {
+    //     image: pic9,
+    //     title: 'Modern house',
+    //     address: 'Muscat, Sultanate of Oman',
+    //     filter: 'cat-1',
+    // },
 ];
 
 var bgimg1 = crossLine2;
@@ -115,7 +115,7 @@ class Projects extends Component {
                                     }}
                                 >
                                     <h3 className="sep-line-one">
-                                        Our Collections
+                                        Galeri Kami
                                     </h3>
                                 </div>
                             </div>
@@ -185,7 +185,7 @@ class Projects extends Component {
                             style={{ backgroundImage: 'url(' + bgimg2 + ')' }}
                         >
                             <button className="site-button-secondry btn-half">
-                                <span>Load More</span>
+                                <span>Lihat Lebih Banyak</span>
                             </button>
                         </div>
                     </div>

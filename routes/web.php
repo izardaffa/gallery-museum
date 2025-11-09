@@ -15,12 +15,12 @@ Route::get('/', function () {
     return Inertia::render('home');
 })->name('home');
 
-// Route to Galery
+// Route to Gallery
 Route::get('/gallery', function () {
     return Inertia::render('gallery');
 })->name('gallery');
 
-// Route to Galery Single
+// Route to Gallery Single
 Route::get('/gallery/{id}', function ($id) {
     return Inertia::render('gallerySingle', [
         'id' => $id,

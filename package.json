@@ -63,6 +63,9 @@
         "typescript": "^5.7.2",
         "vite": "^7.0.4"
     },
+    "engines": {
+        "node": "22.x"
+    },
     "optionalDependencies": {
         "@rollup/rollup-linux-x64-gnu": "4.9.5",
         "@rollup/rollup-win32-x64-msvc": "4.9.5",
