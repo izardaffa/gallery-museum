@@ -46,7 +46,12 @@ h6 {
     color: #fff;
 }
 
-.site-button:hover {
+.btn-half.site-button span {
+    color: white;
+}
+
+.site-button:hover,
+.btn-half.site-button:hover {
     background-color: #ea9a22;
     color: #fff;
 }

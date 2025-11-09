@@ -1,6 +1,8 @@
 import Banner from '@/components/elements/Banner';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
+import { gallerySingle } from '@/routes';
+import { Link } from '@inertiajs/react';
 import { Component } from 'react';
 import Select from 'react-select';
 
@@ -221,9 +223,23 @@ class BlogMasonary extends Component<GalleryProps, GalleryState> {
                                                 <h5 className="post-title fw-bold mb-2">
                                                     {item.title}
                                                 </h5>
-                                                <p className="small mb-0 text-muted">
+                                                <p className="small mb-2 text-muted">
                                                     Oleh {item.author}
                                                 </p>
+                                                <Link
+                                                    href={gallerySingle(
+                                                        item.id,
+                                                    )}
+                                                    className="site-button btn-half"
+                                                    style={{
+                                                        fontSize: '13px',
+                                                        letterSpacing: '0.2em',
+                                                        padding:
+                                                            '0.75rem 0.5rem',
+                                                    }}
+                                                >
+                                                    <span> Read More</span>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
