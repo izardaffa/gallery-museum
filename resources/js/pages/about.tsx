@@ -1,4 +1,5 @@
 import Contact from '@/components/elements/Contact';
+import GoogleMaps from '@/components/elements/GoogleMaps';
 import { Component } from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -38,6 +39,7 @@ class About extends Component {
                     <AboutSection />
                     <WhatWeDo />
                     <Contact />
+                    <GoogleMaps />
                 </div>
 
                 <Footer />
