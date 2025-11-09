@@ -1,3 +1,4 @@
+import AboutSection from '@/components/elements/About';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import Projects from '@/components/Projects';
@@ -11,6 +12,7 @@ export default function Home() {
 
             <div className="page-content">
                 <Slider />
+                <AboutSection />
                 <Projects />
                 <Services />
             </div>

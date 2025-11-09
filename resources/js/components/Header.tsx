@@ -51,7 +51,7 @@ class Header extends Component<{}, HeaderState> {
         return (
             <>
                 <header className="site-header nav-wide nav-transparent mobile-sider-drawer-menu">
-                    <div className="top-bar sx-bg-secondry">
+                    {/* <div className="top-bar sx-bg-secondry">
                         <div className="container">
                             <div className="d-flex justify-content-between">
                                 <ul className="list-unstyled e-p-bx text-white">
@@ -99,7 +99,7 @@ class Header extends Component<{}, HeaderState> {
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="sticky-header main-bar-wraper navbar-expand-lg">
                         <div className="main-bar">
                             <div className="clearfix container">
@@ -129,7 +129,7 @@ class Header extends Component<{}, HeaderState> {
                                     <span className="icon-bar icon-bar-three" />{' '}
                                 </button>
                                 {/* EXTRA NAV */}
-                                <div className="extra-nav">
+                                {/* <div className="extra-nav">
                                     <div className="extra-cell">
                                         <Link
                                             href={'#'}
@@ -138,14 +138,14 @@ class Header extends Component<{}, HeaderState> {
                                             <i className="fa fa-search" />
                                         </Link>
                                     </div>
-                                </div>
+                                </div> */}
                                 {/* EXTRA Nav */}
                                 {/* MAIN NAVIGATION */}
-                                <div className="header-nav nav-dark navbar-collapse justify-content-center collapse">
+                                <div className="header-nav nav-dark navbar-collapse justify-content-end collapse">
                                     <Navigation />
                                 </div>
                                 {/* SITE SEARCH */}
-                                <div
+                                {/* <div
                                     id="search"
                                     className={
                                         isSearchActive ? 'open' : undefined
@@ -179,7 +179,7 @@ class Header extends Component<{}, HeaderState> {
                                             </span>{' '}
                                         </div>
                                     </form>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

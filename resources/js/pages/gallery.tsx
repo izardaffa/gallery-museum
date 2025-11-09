@@ -1,6 +1,7 @@
 import Banner from '@/components/elements/Banner';
 import Footer from '@/components/Footer';
-import React from 'react';
+import Header from '@/components/Header';
+import { Component } from 'react';
 import Select from 'react-select';
 
 // Dummy data artefak museum
@@ -69,8 +70,15 @@ const kabupatenOptions = kabupatenList.map((k) => ({
 
 const bnrimg = '/images/banner/9.jpg';
 
-class BlogMasonary extends React.Component {
-    constructor(props: any) {
+interface GalleryState {
+    search: string;
+    kabupaten: string;
+}
+
+interface GalleryProps {}
+
+class BlogMasonary extends Component<GalleryProps, GalleryState> {
+    constructor(props: GalleryProps) {
         super(props);
         this.state = {
             search: '',
@@ -80,8 +88,8 @@ class BlogMasonary extends React.Component {
 
     componentDidMount() {
         // load script jika diperlukan
-        const loadScript = (src: string) => {
-            return new Promise<any>(function (resolve, reject) {
+        const loadScript = (src: string): Promise<void> => {
+            return new Promise(function (resolve, reject) {
                 var script = document.createElement('script');
                 script.src = src;
                 script.addEventListener('load', () => resolve());
@@ -110,6 +118,7 @@ class BlogMasonary extends React.Component {
 
         return (
             <>
+                <Header />
                 <div className="page-content">
                     <Banner
                         title="Galeri Artefak Museum"

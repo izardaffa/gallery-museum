@@ -115,14 +115,14 @@ class Projects extends Component {
                                     }}
                                 >
                                     <h3 className="sep-line-one">
-                                        Our Projects
+                                        Our Collections
                                     </h3>
                                 </div>
                             </div>
                         </div>
                         {/* TITLE END */}
                         {/* Filter Nav START */}
-                        <div className="filter-wrap p-b30 text-center">
+                        {/* <div className="filter-wrap p-b30 text-center">
                             <ul className="filter-navigation masonry-filter clearfix">
                                 <li className="active">
                                     <Link
@@ -146,7 +146,7 @@ class Projects extends Component {
                                     </li>
                                 ))}
                             </ul>
-                        </div>
+                        </div> */}
                         {/* Filter Nav END */}
                         {/* GALLERY CONTENT START */}
                         <ul className="masonry-outer mfp-gallery work-grid row clearfix list-unstyled m-b0">

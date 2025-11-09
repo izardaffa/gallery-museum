@@ -70,6 +70,9 @@
         <!-- REVOLUTION NAVIGATION STYLE -->
         <link rel="stylesheet" type="text/css" href="/assets/plugins/revolution/revolution/css/navigation.css">
         <link rel="stylesheet" type="text/css" href="/assets/plugins/revolution-addons/beforeafter/css/revolution.addon.beforeafter.css">
+        
+        <!-- Custom Css-->
+        <link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
 
         <!-- Google Fonts -->
         <link
