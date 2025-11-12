@@ -1,6 +1,6 @@
 import React from 'react';
 
-import bg5 from './../../assets/images/background/bg5.jpg';
+const bg5 = '/images/background/bg5.jpg';
 
 var bgimg1 = bg5;
 

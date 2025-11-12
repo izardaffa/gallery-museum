@@ -1,11 +1,11 @@
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { Component } from 'react';
-import crossLine2 from './../assets/images/background/cross-line2.png';
-import service1 from './../assets/images/services/service-projects/1.jpg';
-import service2 from './../assets/images/services/service-projects/2.jpg';
-import service3 from './../assets/images/services/service-projects/3.jpg';
-import service4 from './../assets/images/services/service-projects/4.jpg';
+const crossLine2 = '/images/background/cross-line2.png';
+const service1 = '/images/services/service-projects/1.jpg';
+const service2 = '/images/services/service-projects/2.jpg';
+const service3 = '/images/services/service-projects/3.jpg';
+const service4 = '/images/services/service-projects/4.jpg';
 
 const services = [
     {

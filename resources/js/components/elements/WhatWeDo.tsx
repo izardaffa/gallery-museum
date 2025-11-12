@@ -1,12 +1,12 @@
 import React from 'react';
 
-import bg2 from './../../assets/images/background/bg-2.jpg';
-import bg5 from './../../assets/images/background/bg-5.png';
-import crossLine2 from './../../assets/images/background/cross-line2.png';
+const bg2 = '/images/background/bg-2.jpg';
+const bg5 = '/images/background/bg-5.png';
+const crossLine2 = '/images/background/cross-line2.png';
 
-import pic1 from './../../assets/images/our-team/pic1.jpg';
-import pic2 from './../../assets/images/our-team/pic2.jpg';
-import pic3 from './../../assets/images/our-team/pic3.jpg';
+const pic1 = '/images/our-team/pic1.jpg';
+const pic2 = '/images/our-team/pic2.jpg';
+const pic3 = '/images/our-team/pic3.jpg';
 
 var bgimg1 = bg5;
 var bgimg2 = bg2;

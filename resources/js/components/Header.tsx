@@ -1,8 +1,8 @@
 import { home } from '@/routes';
 import { Link } from '@inertiajs/react';
 import { Component } from 'react';
-import logoLight from './../assets/images/logo-light.png';
 import Navigation from './Navigation';
+const logoLight = '/images/logo-light.png';
 
 interface HeaderState {
     logo: string;

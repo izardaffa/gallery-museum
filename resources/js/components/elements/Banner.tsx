@@ -1,4 +1,4 @@
-import banner5 from './../../assets/images/banner/5.jpg';
+const banner5 = '/images/banner/5.jpg';
 
 const Banner = ({ title, pagename, description, bgimage = banner5 }: any) => {
     return (

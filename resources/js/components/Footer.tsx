@@ -2,7 +2,7 @@ import { Link } from '@inertiajs/react';
 import React from 'react';
 
 import { about, gallery, home } from '@/routes';
-import logoLight from './../assets/images/logo-light.png';
+const logoLight = '/images/logo-light.png';
 
 class Footer extends React.Component {
     render() {

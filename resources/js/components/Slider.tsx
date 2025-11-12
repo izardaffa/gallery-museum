@@ -1,9 +1,9 @@
 import { Component } from 'react';
 
-import slide1 from './../assets/images/main-slider/slider2/slide1.jpg';
-import slide2 from './../assets/images/main-slider/slider2/slide2.jpg';
-import slide3 from './../assets/images/main-slider/slider2/slide3.jpg';
-import slide4 from './../assets/images/main-slider/slider2/slide4.jpg';
+const slide1 = '/images/main-slider/slider2/slide1.jpg';
+const slide2 = '/images/main-slider/slider2/slide2.jpg';
+const slide3 = '/images/main-slider/slider2/slide3.jpg';
+const slide4 = '/images/main-slider/slider2/slide4.jpg';
 
 interface MyModalState {
     isOpen: boolean;
